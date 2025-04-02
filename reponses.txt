@@ -1,0 +1,76 @@
+
+1/
+
+git status permet de visualiser les fichiers qui sont present ou non dans la staging area, les fichiers presents sont de couleur verte et les autres sont de couleur rouges car il ne sont pas ajouter a git 
+
+2/
+
+On remarque que le fichiers et desormais en vert donc dans la staging area.
+
+3/
+
+Dans la staging area
+
+5/
+
+"git log"
+
+6/
+
+git diff compare l'etat actuel des fichier et les changements qui ont été commit tandis que git diff --staged montre les modification qui sont prete a être ajouter a la staging area
+
+7/
+
+git show : Détails d'un commit ou d'un objet Git
+git status : État du répertoire de travail et de la zone de staging
+git diff : Comparaison des différences entre versions de fichiers
+git log : Historique des commits du projet
+
+8/
+
+Sur la branche develop
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	nouveau fichier : brouillon.txt
+	nouveau fichier : fichier1.txt
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	reponses.txt
+
+9/
+
+Cette commande permet de replacer le fichier brouillon.txt de la staging area à la working directory.
+
+10/
+
+"git status"
+
+Sur la branche develop
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	brouillon.txt
+	reponses.txt
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+13/
+
+git clone https://github.com/PaulineLam24/TP-Git.git
+
+14/
+
+le fichier README.md
+
+- Correctif README.md
+- Ajout dans README.md
+- Initial commit
+
+"git log"
+
+15/
+
+Modification sur la deuxième ligne du fichier README.md pour que celle-ci s'affiche comme du texte et non un titre.
+
+Ajout d'une 2e ligne dans le fichier README.md.
+
